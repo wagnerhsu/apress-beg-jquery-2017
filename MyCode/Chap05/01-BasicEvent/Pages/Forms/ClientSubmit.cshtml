@@ -1,0 +1,17 @@
+﻿@page
+@model _01_BasicEvent.Pages.Forms.ClientSubmitModel
+@{
+    ViewData["Title"] = "ClientSubmit";
+}
+@section Scripts
+{
+    <script src="~/js/Forms/ClientSubmit.js"></script>
+}
+<h1>ClientSubmit</h1>
+
+<form>
+    <label>Enter your first name:</label>
+    <input type="text" id="first_name" name="first_name"/>
+    <input type="submit" name="submit" value="Submit"/>
+</form>
+<a id="trigger">Trigger Submit</a>

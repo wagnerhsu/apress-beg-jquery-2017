@@ -7,7 +7,8 @@
             console.log("hovered over");
         });
     $("div").on("click",
-        function() {
+        function () {
+            console.log($(this).attr("class"));
             console.log("click event");
         });
 });
