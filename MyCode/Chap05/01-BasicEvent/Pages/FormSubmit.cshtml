@@ -1,0 +1,14 @@
+﻿@page
+@model _01_BasicEvent.Pages.FormSubmitModel
+@{
+    ViewData["Title"] = "FormSubmit";
+}
+
+<h1>FormSubmit</h1>
+<form method="post">
+    <input asp-for="Product.Id" class="form-control" />
+    <input asp-for="Product.Name" class="form-control" />
+    <input class="btn btn-primary" type="submit" value="Submit" />
+</form>
+
+<p><a asp-page="FormSubmit" class="btn btn-primary">Click to get</a></p>
