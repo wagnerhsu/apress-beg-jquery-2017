@@ -3,3 +3,4 @@ obj/
 debug/
 v16/
 *.user
+.vs/
